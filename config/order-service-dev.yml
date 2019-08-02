@@ -20,16 +20,8 @@ feign:
   hystrix:
     enabled: true
     
-management:
-  endpoints:
-    web:
-      exposure:
-        include: hystrix.stream
-management:
-  endpoints:
-    web:
-      exposure:
-        include: bus-refresh        
+
+       
 ---
 spring:
   profiles: order1
